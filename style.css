@@ -18,30 +18,61 @@
     opacity: 0;
     transition: opacity 2s ease-in;
     transition: opacity 2s ease-out;
+    
+    display: grid;
+    place-items: center;
+    height: 100vh;
 }
 
 #third-page {
     opacity: 0;
     transition: opacity 2s ease-in;
     transition: opacity 2s ease-out;
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #fourth-page {
     opacity: 0;
     transition: opacity 2s ease-in;
     transition: opacity 2s ease-out;
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #fifth-page {
     opacity: 0;
     transition: opacity 2s ease-in;
     transition: opacity 2s ease-out;
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #sixth-page {
     opacity: 0;
     transition: opacity 2s ease-in;
     transition: opacity 2s ease-out;
+
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.left {
+
+}
+
+.right {
+
 }
 
 /* text */
