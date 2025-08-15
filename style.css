@@ -1,0 +1,63 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+/* sectioning */
+
+
+
+
+#first-page {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+#second-page {
+    opacity: 0;
+    transition: opacity 2s ease-in;
+    transition: opacity 2s ease-out;
+}
+
+#third-page {
+    opacity: 0;
+    transition: opacity 2s ease-in;
+    transition: opacity 2s ease-out;
+}
+
+#fourth-page {
+    opacity: 0;
+    transition: opacity 2s ease-in;
+    transition: opacity 2s ease-out;
+}
+
+#fifth-page {
+    opacity: 0;
+    transition: opacity 2s ease-in;
+    transition: opacity 2s ease-out;
+}
+
+#sixth-page {
+    opacity: 0;
+    transition: opacity 2s ease-in;
+    transition: opacity 2s ease-out;
+}
+
+/* text */
+
+
+/* images */
+
+
+/* buttons */
+
+#begin-button {
+    text-align: center;
+    padding: 20px 26px;
+}
+
+
+/* other */
+
+
