@@ -17,6 +17,15 @@ const fourthPage = document.getElementById('fourth-page');
 const fifthPage = document.getElementById('fifth-page');
 const sixthPage = document.getElementById('sixth-page');
 
+const soundOne = document.getElementById('sound-one');
+const soundTwo = document.getElementById('sound-two');
+const soundThree = document.getElementById('sound-three');
+const soundFour = document.getElementById('sound-four');
+const soundFive = document.getElementById('sound-five');
+
+
+soundOne.playbackRate = 1.5;
+
 //event listeners
 
 beginButton.addEventListener("click", begin);
@@ -35,7 +44,11 @@ fifthButton.addEventListener('click', ()=> fadeIn(sixthPage));
 
 restart.addEventListener('click', restartFunction);
 
-
+beginButton.addEventListener('click', ()=> playSound(soundOne));
+secondButton.addEventListener('click', ()=> playSound(soundTwo));
+thirdButton.addEventListener('click', ()=> playSound(soundThree));
+fourthButton.addEventListener('click', ()=> playSound(soundFour));
+fifthButton.addEventListener('click', ()=> playSound(soundFive));
 
 
 //functions
@@ -57,3 +70,8 @@ function fadeOut(page) {
 function restartFunction() {
     location.reload();
 }
+
+function playSound(sound) {
+    sound.play();
+}
+

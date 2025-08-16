@@ -32,6 +32,7 @@ body {
     background-color: #B08968;
     border-radius: 10px;
     z-index: -1;
+    box-shadow: 0 8px 16px 0 rgba(118, 80, 54, 0.2);
 }
 
 .content {
@@ -171,7 +172,7 @@ body {
 
 h1 {
     padding: 5px;
-    color: #533826;
+    color: #3e2a1d;
     font-size: 35px;
 }
 
@@ -186,6 +187,12 @@ p {
     color: #6a4831;
     font-size: 20px;
 }
+
+.first {
+    color: #533826;
+    text-decoration: underline;
+}
+
 
 /* images */
 
@@ -207,8 +214,12 @@ button {
     border: none;
     box-shadow: 0 4px 8px 0 rgba(83, 56, 38, 0.2);
     background-color: #9C6644;
-    color: #3e2a1c;
+    color: #3e2a1d;
     font-family: 'concert-one';
+}
+
+button:hover {
+    background-color: #805438;
 }
 
 
